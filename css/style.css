@@ -862,14 +862,21 @@ footer a{
 .socseti{
     display: flex;
     gap: 10px;
-    justify-content: end;
+    
 }
-.tri{
-    text-align: right;
+.tri img{
+    justify-content: flex-start;
 }
 .nn{
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+}
+.check{
+color: #f8faf8;
+    font-family: 'osn';
+    font-size: 20px;
+    padding: 5px 0 0 0;
+    
 }
 .pp{
     text-align: right;
@@ -880,4 +887,14 @@ footer a{
 .nn{
     padding: 100px 0 50px 0;
 }
+.check a{
+    font-size: 20px;
+}
+
+input[type="checkbox"]{
+width: 15px;
+height: 15px;
+
+}
+
 /* конец */
